@@ -28,10 +28,6 @@ Customer_Feedback_Analysis/
 ├── requirements.txt # Python dependencies
 
 
-yaml
-Copy
-
----
 
 ## Setup and Usage
 

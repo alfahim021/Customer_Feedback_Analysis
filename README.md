@@ -2,54 +2,80 @@
 
 ## Overview
 
-This project analyzes customer feedback data collected from multiple sources using sentiment analysis techniques. The goal is to extract actionable insights to improve product quality and customer satisfaction.
+This project analyzes customer feedback data using sentiment analysis to gain insights that help improve product quality and customer satisfaction.
 
-The analysis uses Python (NLTK, TextBlob, Pandas) for data cleaning and sentiment classification, and Tableau for interactive data visualization and dashboard creation.
+It uses Python (NLTK, TextBlob, Pandas) for data processing and Tableau for building interactive dashboards.
 
 ---
 
 ## Project Structure
 
-Customer_Feedback_Analysis/
+Customer_Feedback_Analysis
 │
-├── data/
-│ ├── raw/ # Original raw datasets
-│ ├── processed/ # Cleaned datasets with sentiment labels
+├── data
+│ ├── raw\ # Original datasets
+│ ├── processed\ # Cleaned and labeled datasets
 │
-├── notebooks/ # Jupyter notebooks for analysis and prototyping
+├── notebooks\ # Jupyter notebooks for analysis
 │
-├── scripts/ # Python scripts for preprocessing and analysis
+├── scripts\ # Python scripts for data processing
 │
-├── reports/ # Weekly summary reports and presentations
+├── reports\ # Reports and presentations
 │
-├── tableau_dashboard/ # Tableau workbook files (.twbx)
+├── tableau_dashboard\ # Tableau dashboard files (.twbx)
 │
-├── README.md # This file: project overview and instructions
-├── requirements.txt # Python dependencies
+├── README.md # Project overview and instructions
+└── requirements.txt # Python package dependencies
+
+
 
 
 
 ## Setup and Usage
 
-### Requirements
+### Prerequisites
 
-- Python 3.7 or above
-- Packages listed in `requirements.txt` (install with pip)
+- Python 3.7 or higher installed
+- Required Python packages (listed in `requirements.txt`)
 
-```bash
+### Install Packages
+
+Open **Command Prompt** and run:
+
 pip install -r requirements.txt
-Run Data Analysis
-Place your raw dataset (redmi6.csv) in data/raw/.
 
-Run the Python script to clean data and perform sentiment analysis:
 
-bash
+### Run Data Processing Script
+
+1. Place your raw data file (`Customer_Feedback.csv`) inside:
+
+data\raw\
+
+
+2. Run the analysis script by executing:
+
+python scripts\feedback_analysis.py
+
+kotlin
 Copy
-python scripts/feedback_analysis.py
-This generates cleaned and sentiment-labeled files in data/processed/.
 
-Tableau Dashboard
-Open the Tableau workbook in tableau_dashboard/Customer_Feedback_Dashboard.twbx to explore interactive dashboards built on processed data.
+This will generate cleaned and sentiment-labeled data in:
 
-Contact
-For questions or help, email: alfahim021@gmail.com
+data\processed\
+
+
+### Use Tableau Dashboard
+
+- Open Tableau Desktop.
+- Load the dashboard file located at:
+
+tableau_dashboard\Customer_Feedback_Dashboard.twbx
+
+Explore interactive visualizations of customer sentiments and feedback trends.
+
+---
+
+## Contact
+
+**Your Name**  
+Email: alfahim021@gmail.com  

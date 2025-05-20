@@ -76,6 +76,4 @@ Explore interactive visualizations of customer sentiments and feedback trends.
 ---
 
 ## Contact
-
-**Your Name**  
-Email: alfahim021@gmail.com  
+For questions or help, email: alfahim021@gmail.com
